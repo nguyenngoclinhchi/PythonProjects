@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!--the description is used by the search engine to understand what is the web page is about, max = 150 chars-->
+    <meta name="description" content="This is my first website">
+    <!--keywords are words that web user might search to find particular web page, Google dont use, but other search engines might use it-->
+    <meta name="keywords" content="cat, bunny, home, planets">
+    <meta http-equiv="Content-Language" content="en-us">
+    <meta http-equiv="Authorization" content="Chi">
+    <title>Title</title>
+</head>
+<body>
+    <img height="100" src="razer-blade-2018.jpg">
+    <!--ul is unordered list, starting with bulletin, ol is ordered list, starting with numbering -->
+    <ol>
+        <li>CD</li>
+        <li>DVD</li>
+        <li>Meow Meow</li>
+    </ol>
+    <table>
+        <!--tr is table row, th is the header, used for first row of the table, td is the data for each call of one row-->
+        <tr>
+            <th> The Planets </th>
+            <th> The Oceans </th>
+            <th> The Desserts </th>
+        </tr>
+        <tr>
+            <td> Earth </td>
+            <td> Pacific </td>
+            <td> Sahara </td>
+        </tr>
+        <tr>
+            <td> Pluto </td>
+            <td> Atlantic </td>
+            <td> Gobi </td>
+        </tr>
+    </table>
+    <p>
+        Please click on this link
+        <a  href = "https://www.youtube.com/watch?v=U4UHoiK6Oo4&list=PLr6-GrHUlVf_ZNmuQSXdS197Oyr1L9sPB&index=6">
+            EJ Media Reference HTML tutorial</a>
+    </p>
+    <ul>
+        <li> <a href="#Meow">Kitty Homie!</a> </li>
+        <li> <a href="#Pika">Bunny Homie!</a> </li>
+    </ul>
+    <p>
+        <a name="Meow"> This is the article about kitties</a>
+        <a name="Pika"> This is the article about Bunnies</a>
+    </p>
+    <form action="" method="">
+        <!--field set allows creating a box covering all the details inside field set-->
+        <!--the attribute covered with legend tag will be the label of the field set-->
+        <fieldset>
+            <!-- the for attribute has to match the first name attribute-->
+            <legend>
+                <label for="firstName">First Name: </label>
+                <input type="text" id="firstName" name="Open"><br>
+            </legend>
+            <input type="checkbox" id="finished" name="Open">
+            <label for="finished">Finished </label>=<br>
+            <!--
+            multi-line text box
+            the browser will automatically put the scroll when the lines are used up
+            -->
+            <label for="description">Description: </label><br>
+            <textarea id="description" rows="10" cols="40"></textarea><br>
+            <!-- for radio button, the options in the same group has to be in the same name-->
+
+            <input type="submit" value="Submit :D"><br>
+
+            Female:
+            <input type="radio" name="F_or_M" value="Female"><br>
+            <!--set the checked attribute when you want it to be initially checked-->
+            Male:
+            <input type="radio" name="F_or_M" value="Male" checked="checked"><br>
+            Others:
+            <input type="radio" name="F_or_M" value="Others"><br>
+
+            <!--check box: different from radio button, as checkbox allows multiple choice at the same time-->
+            <input type="checkbox" name="">Football<br>
+            <!--set the checked attribute when you want it to be initially checked-->
+            <input type="checkbox" name="" checked="checked" >Basketball<br>
+            <input type="checkbox" name="">Soccer<br>
+            <input type="checkbox" name="">Hockey<br>
+
+            <input type="number" max="100" min="0"><br>
+
+            <!--drop down lists-->
+            <select>
+                <option value="Michigan">Michigan</option>
+                <option value="Alabama">Alabama</option>
+                <option value="North Dakota">North Dakota</option>
+            </select>
+            <br>
+            Enter the day you will be absent from class: <input type="date" name="day"><br>
+            Number of days: <input type="number" min="0" max="10">
+        </fieldset>
+    </form>
+
+<!--ESCAPE CHARACTERS-->
+    <!-- space --------- &nbsp;-->
+    <!-- ™     --------- &#8482;-->
+    <!-- &     --------- &amp;-->
+    <!-- ©     --------- &copy;-->
+    <!-- <     --------- &lt;-->
+    <!-- >     --------- &gt;-->
+    <!-- ?     --------- &#63;-->
+
+    <!--STRONG/BOLD/ITALIC/EM elements-->
+    <!--bold and strong elements looks identical visually, but the strong element add the emphasis on the content-->
+    <!--by adding some additional information-->
+    <!--same case for italics and em elements-->
+    <p> This is a <b>bold element</b></p>
+    <p> This is a <strong>strong element</strong></p>
+    <p> This is a <i>italic element</i></p>
+    <p> This is a <em>em element</em></p>
+
+    <!--iframe allow us to take other elements from other html files to bring to the current html file-->
+    <!--frameholder 1-on, 0-off -->
+    <iframe frameborder="1" width="500" height="500" src="first.html" name="ouriframe" id="ouriframe_ID">Do you see this? :( </iframe>
+    <!--the name of iframe and href have to match in order to be synced-->
+    <a href="second.html" target="ouriframe">switch to new HTML</a>
+    <br>
+
+    <!--sup stands for superscript and sub stands for subscript-->
+    <p> This is a <sup>superscript element</sup></p><br>
+    <p> This is a <sub>subscript element</sub></p><br>
+
+</body>
+</html>
