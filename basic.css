@@ -1,53 +1,50 @@
-    <style>
-    /*css allows inheritance, you can specify the body element below to indicate for the whole body*/
-    /*inheritance only happens when there is no overriding elements in the child element*/
-        body {
-            font-family: Helvetica;
-        }
-        h1, h2 {
-            background-color: beige;
-            /*only the bottom of the border is visible*/
-            /*2px indicates the weight of the border line*/
-            /*border-bottom: 2px solid black;*/
-            /*if you want a box covering the header use border*/
-            border: 2px solid black;
-        }
-        /*in order to indicate different factor for different section but with the same element,
-        we define class/tag to indicate the difference*/
-        /*the class-name can be used for different element at the same time*/
-        /*one element can use multiple class-name*/
-        .darkred {
-            color: darkred;
-        }
-        .blue {
-            color: blue;
-        }
-        .underline {
-            text-decoration: underline
-        }
-        .under_overline {
-            text-decoration: underline overline
-        }
-        p {
-            /*px stands for pixel*/
-            font-size: 16px;
-            /*The browser will load the font Ubuntu first, if it cannot find, then load the second font and so on*/
-            /*if it cannot find any font, then use the default font*/
-            font-family: 'Ubuntu', 'Lucida Grande', 'Lucida Sans Unicode', 'Geneva', 'Verdana', sans-serif;
-        }
+/*css allows inheritance, you can specify the body element below to indicate for the whole body*/
+/*inheritance only happens when there is no overriding elements in the child element*/
+body {
+    font-family: Helvetica;
+}
+h1, h2 {
+    background-color: beige;
+    /*only the bottom of the border is visible*/
+    /*2px indicates the weight of the border line*/
+    /*border-bottom: 2px solid black;*/
+    /*if you want a box covering the header use border*/
+    border: 2px solid black;
+}
+/*in order to indicate different factor for different section but with the same element,
+we define class/tag to indicate the difference*/
+/*the class-name can be used for different element at the same time*/
+/*one element can use multiple class-name*/
+.darkred {
+    color: darkred;
+}
+.blue {
+    color: blue;
+}
+.underline {
+    text-decoration: underline
+}
+.under_overline {
+    text-decoration: underline overline
+}
+p {
+    /*px stands for pixel*/
+    font-size: 16px;
+    /*The browser will load the font Ubuntu first, if it cannot find, then load the second font and so on*/
+    /*if it cannot find any font, then use the default font*/
+    font-family: 'Ubuntu', 'Lucida Grande', 'Lucida Sans Unicode', 'Geneva', 'Verdana', sans-serif;
+}
 
-        /*there are 4 modes of font weight*/
-        .light {
-            font-weight: lighter;
-        }
-        .normal {
-            font-weight: normal;
-        }
-        .bold {
-            font-weight: bold;
-        }
-        .bolder {
-            font-weight: bolder;
-        }
-
-    </style>
+/*there are 4 modes of font weight*/
+.light {
+    font-weight: lighter;
+}
+.normal {
+    font-weight: normal;
+}
+.bold {
+    font-weight: bold;
+}
+.bolder {
+    font-weight: bolder;
+}
