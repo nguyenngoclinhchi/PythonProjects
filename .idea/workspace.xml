@@ -1,9 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-<<<<<<< HEAD
-    <list default="true" id="d46b7758-f13d-4e48-ae28-3080839acc8e" name="Default Changelist" comment="" />
-=======
     <list default="true" id="8bbb1ccf-7601-4e3a-ba02-5136604f1b61" name="Default Changelist" comment="">
       <change afterPath="$PROJECT_DIR$/.editorconfig" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Chot_nhu_giac_mo.mp3" afterDir="false" />
@@ -14,14 +11,12 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
->>>>>>> 61b5e6e5908141ee523d97f4f4f32e0eb27faed2
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-<<<<<<< HEAD
   <component name="FUSProjectUsageTrigger">
     <session id="157728328">
       <usages-collector id="statistics.lifecycle.project">
@@ -72,8 +67,6 @@
       </usages-collector>
     </session>
   </component>
-=======
->>>>>>> 61b5e6e5908141ee523d97f4f4f32e0eb27faed2
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
@@ -156,19 +149,16 @@
       </list>
     </option>
   </component>
-<<<<<<< HEAD
   <component name="ProjectFrameBounds" extendedState="1">
     <option name="x" value="200" />
     <option name="y" value="36" />
     <option name="width" value="1400" />
     <option name="height" value="970" />
-=======
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="230" />
     <option name="y" value="135" />
     <option name="width" value="1385" />
     <option name="height" value="810" />
->>>>>>> 61b5e6e5908141ee523d97f4f4f32e0eb27faed2
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -335,7 +325,6 @@
     <frame x="200" y="36" width="1400" height="970" extended-state="1" />
     <editor active="true" />
     <layout>
-<<<<<<< HEAD
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.13729809" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
@@ -355,7 +344,6 @@
       <window_info anchor="bottom" id="Python Console" order="10" />
       <window_info anchor="bottom" id="Console" order="11" />
       <window_info anchor="bottom" id="DB Execution Console" order="12" />
-=======
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22252375" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
@@ -374,7 +362,6 @@
       <window_info anchor="bottom" id="Python Console" order="11" sideWeight="0.83776224" weight="0.32872927" />
       <window_info anchor="bottom" id="Docker" order="12" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="13" />
->>>>>>> 61b5e6e5908141ee523d97f4f4f32e0eb27faed2
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
