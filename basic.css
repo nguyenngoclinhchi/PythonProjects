@@ -1,7 +1,8 @@
 /*css allows inheritance, you can specify the body element below to indicate for the whole body*/
 /*inheritance only happens when there is no overriding elements in the child element*/
 body {
-    font-family: Helvetica;
+    font-family: Helvetica, serif;
+    font-size: 20px
 }
 h1, h2 {
     background-color: beige;
@@ -10,6 +11,9 @@ h1, h2 {
     /*border-bottom: 2px solid black;*/
     /*if you want a box covering the header use border*/
     border: 2px solid black;
+    font-style: oblique;
+    /*the %-relative measure unit referring to the font-size indicated in the body*/
+    font-size: 150%
 }
 /*in order to indicate different factor for different section but with the same element,
 we define class/tag to indicate the difference*/
@@ -28,11 +32,13 @@ we define class/tag to indicate the difference*/
     text-decoration: underline overline
 }
 p {
-    /*px stands for pixel*/
-    font-size: 16px;
+    /*em means it will take the font-size in body then times 1.1 */
+    font-size: 1.1em;
     /*The browser will load the font Ubuntu first, if it cannot find, then load the second font and so on*/
     /*if it cannot find any font, then use the default font*/
     font-family: 'Ubuntu', 'Lucida Grande', 'Lucida Sans Unicode', 'Geneva', 'Verdana', sans-serif;
+    /*add space between lines*/
+    line-height: 1.5em
 }
 
 /*there are 4 modes of font weight*/
@@ -47,4 +53,13 @@ p {
 }
 .bolder {
     font-weight: bolder;
+}
+.background {
+    background-color: yellow;
+    /*padding indicated the thickness of the box covering around the entity*/
+    padding: 20px;
+    border-color: black;
+    border-width: 2px;
+    border-style: solid;
+    margin: 20px
 }

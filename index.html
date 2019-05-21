@@ -2,10 +2,28 @@
 <html lang="en">
 <!--
     There are 3 ways to access CSS
-        External stylesheet
-        Internal stylesheet
-        Inline
+        External stylesheet: refer to the outside .css file
+        Internal stylesheet: style directly in the HTML file
+        Inline: for example: we can directly style the p by <p style="color: red; font-size: 12px">Inline Style</p>
 -->
+
+<!--
+    There are  ways to specify the font-size:
+        px: should be declared in body stylesheet
+        %: relative measure unit: it will refer to the font-size in the body then times x%
+        em: relative measure unit: it will refer to the font-size in the body then times x
+        keywords
+-->
+
+<!--
+    The color element indicated will OVERRIDE all the sub-color, for ex: border-color
+-->
+
+<!--
+    The ordering of a cover inside-out: content-padding-border-margin
+    By setting the margin, we can set the indentation of a specific element
+-->
+
 <head>
     <meta charset="UTF-8">
     <!--the description is used by the search engine to understand what is the web page is about, max = 150 chars-->
@@ -26,11 +44,20 @@
     </p>
 
     <h2>Section 1: Things Kitty likes</h2>
-    <p class="blue normal">
+    <p class="blue normal background">
         Bunnies..... lots of bunnies
     </p>
+    <br>
 
-    <blockquote class="darkred under_overline">
+    <p class="background">
+        Meow, Meow, Meow.......Meowwwwwwwwwwww!!!
+    </p>
+
+
+    <p style="color: red; font-size: 20px; class=">Inline Style</p>
+    <br>
+
+    <blockquote class="darkred under_overline background">
         This is an indent
     </blockquote>
 
