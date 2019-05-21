@@ -3,6 +3,7 @@
     /*inheritance only happens when there is no overriding elements in the child element*/
         body {
             font-family: Helvetica;
+            font-size: 20px
         }
         h1, h2 {
             background-color: beige;
@@ -11,6 +12,9 @@
             /*border-bottom: 2px solid black;*/
             /*if you want a box covering the header use border*/
             border: 2px solid black;
+            font-style: oblique;
+            /*the %-relative measure unit referring to the font-size indicated in the body*/
+            font-size: 150%
         }
         /*in order to indicate different factor for different section but with the same element,
         we define class/tag to indicate the difference*/
@@ -29,8 +33,8 @@
             text-decoration: underline overline
         }
         p {
-            /*px stands for pixel*/
-            font-size: 16px;
+            /*em means it will take the font-size in body then times 1.1 */
+            font-size: 1.1em;
             /*The browser will load the font Ubuntu first, if it cannot find, then load the second font and so on*/
             /*if it cannot find any font, then use the default font*/
             font-family: 'Ubuntu', 'Lucida Grande', 'Lucida Sans Unicode', 'Geneva', 'Verdana', sans-serif;

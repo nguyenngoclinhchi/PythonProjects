@@ -2,10 +2,19 @@
 <html lang="en">
 <!--
     There are 3 ways to access CSS
-        External stylesheet
-        Internal stylesheet
-        Inline
+        External stylesheet: refer to the outside .css file
+        Internal stylesheet: style directly in the HTML file
+        Inline: for example: we can directly style the p by <p style="color: red; font-size: 12px">Inline Style</p>
 -->
+
+<!--
+    There are  ways to specify the font-size:
+        px: should be declared in body stylesheet
+        %: relative measure unit: it will refer to the fontsize in the body then times x%
+        em: relative measure unit: it will refer to the fontsize in the body then times x
+        keywords
+-->
+
 <head>
     <meta charset="UTF-8">
     <!--the description is used by the search engine to understand what is the web page is about, max = 150 chars-->
@@ -29,6 +38,10 @@
     <p class="blue normal">
         Bunnies..... lots of bunnies
     </p>
+    <br>
+
+    <p style="color: red; font-size: 20px">Inline Style</p>
+    <br>
 
     <blockquote class="darkred under_overline">
         This is an indent
