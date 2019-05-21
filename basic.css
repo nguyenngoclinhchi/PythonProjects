@@ -38,6 +38,8 @@
             /*The browser will load the font Ubuntu first, if it cannot find, then load the second font and so on*/
             /*if it cannot find any font, then use the default font*/
             font-family: 'Ubuntu', 'Lucida Grande', 'Lucida Sans Unicode', 'Geneva', 'Verdana', sans-serif;
+            /*add space between lines*/
+            line-height: 1.5em
         }
 
         /*there are 4 modes of font weight*/
@@ -52,6 +54,14 @@
         }
         .bolder {
             font-weight: bolder;
+        }
+        .background {
+            background-color: yellow;
+            /*padding indicated the thickness of the box covering around the entity*/
+            padding: 20px
+            border-color: black;
+            border-width: 2px;
+            border-style: solid;
         }
 
     </style>
