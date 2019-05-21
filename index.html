@@ -1,5 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
+<!--
+    There are 3 ways to access CSS
+        External stylesheet
+        Internal stylesheet
+        Inline
+-->
 <head>
     <meta charset="UTF-8">
     <!--the description is used by the search engine to understand what is the web page is about, max = 150 chars-->
@@ -7,29 +13,27 @@
     <!--keywords are words that web user might search to find particular web page, Google dont use, but other search engines might use it-->
     <meta name="keywords" content="cat, bunny, home, planets">
     <meta http-equiv="Content-Language" content="en-us">
-    <meta http-equiv="Authorization" content="Chi">
     <title>Title</title>
 
-    <style>
-        h1, h2 {
-            background-color: beige;
-            /*only the bottom of the border is visible*/
-            /*2px indicates the weight of the border line*/
-            /*border-bottom: 2px solid black;*/
-            /*if you want a box covering the header use border*/
-            border: 2px solid black;
-        }
-        p {
-            color: darkred;
-            /*px stands for pixel*/
-            font-size: 16px;
-            font-family: 'Ubuntu', 'Lucida Grande', 'Lucida Sans Unicode', 'Geneva', 'Verdana', sans-serif;
-        }
+    <!--External stylesheet-->
+    <link rel="stylesheet" type="text/css" href="basic.css">
 
-    </style>
 </head>
 <body>
     <h1>Kitties's first web page</h1>
+    <p class="darkred light">
+        Welcome to Kitty kingdom, everything you want to know is in this website
+    </p>
+
+    <h2>Section 1: Things Kitty likes</h2>
+    <p class="blue normal">
+        Bunnies..... lots of bunnies
+    </p>
+
+    <blockquote class="darkred under_overline">
+        This is an indent
+    </blockquote>
+
     <img height="100" src="razer-blade-2018.jpg">
     <!--ul is unordered list, starting with bulletin, ol is ordered list, starting with numbering -->
     <ol>
@@ -155,7 +159,7 @@
     </audio>
     <br>
 
-    <video height="360" width="640" controls="videocontrols">
+    <video height="360" width="640">
         <source src="Hello%20Vietnam%20-%20Pham%20Quynh%20Anh%20-%20Beautiful%20Vietnam%20by%20Drone.mp4">
     </video>
 </body>
