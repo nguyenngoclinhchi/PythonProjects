@@ -9,8 +9,27 @@
     <meta http-equiv="Content-Language" content="en-us">
     <meta http-equiv="Authorization" content="Chi">
     <title>Title</title>
+
+    <style>
+        h1, h2 {
+            background-color: beige;
+            /*only the bottom of the border is visible*/
+            /*2px indicates the weight of the border line*/
+            /*border-bottom: 2px solid black;*/
+            /*if you want a box covering the header use border*/
+            border: 2px solid black;
+        }
+        p {
+            color: darkred;
+            /*px stands for pixel*/
+            font-size: 16px;
+            font-family: 'Ubuntu', 'Lucida Grande', 'Lucida Sans Unicode', 'Geneva', 'Verdana', sans-serif;
+        }
+
+    </style>
 </head>
 <body>
+    <h1>Kitties's first web page</h1>
     <img height="100" src="razer-blade-2018.jpg">
     <!--ul is unordered list, starting with bulletin, ol is ordered list, starting with numbering -->
     <ol>
@@ -128,5 +147,16 @@
     <p> This is a <sup>superscript element</sup></p><br>
     <p> This is a <sub>subscript element</sub></p><br>
 
+<!--    <audio controls="audiocontrols">-->
+<!--    autoplay allows the .mp3 to be played automatically-->
+<!--    <audio controls autoplay loop draggable="true">-->
+    <audio controls="audiocontrols">
+        <source src="Chot_nhu_giac_mo.mp3">
+    </audio>
+    <br>
+
+    <video height="360" width="640" controls="videocontrols">
+        <source src="Hello%20Vietnam%20-%20Pham%20Quynh%20Anh%20-%20Beautiful%20Vietnam%20by%20Drone.mp4">
+    </video>
 </body>
 </html>
