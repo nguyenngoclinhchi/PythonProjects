@@ -2,9 +2,12 @@
 /*inheritance only happens when there is no overriding elements in the child element*/
 body {
     font-family: Helvetica, serif;
-    font-size: 20px
+    font-size: 20px;
+    background-image: url(galaxy.jpg);
+    color: lightpink;
+
 }
-h1, h2 {
+h1, h2, h3 {
     background-color: beige;
     /*only the bottom of the border is visible*/
     /*2px indicates the weight of the border line*/
@@ -12,8 +15,6 @@ h1, h2 {
     /*if you want a box covering the header use border*/
     border: 2px solid black;
     font-style: oblique;
-    /*the %-relative measure unit referring to the font-size indicated in the body*/
-    font-size: 150%
 }
 /*in order to indicate different factor for different section but with the same element,
 we define class/tag to indicate the difference*/
@@ -21,6 +22,8 @@ we define class/tag to indicate the difference*/
 /*one element can use multiple class-name*/
 .darkred {
     color: darkred;
+    /*the %-relative measure unit referring to the font-size indicated in the body*/
+    font-size: 150%
 }
 .blue {
     color: blue;
@@ -57,9 +60,36 @@ p {
 .background {
     background-color: yellow;
     /*padding indicated the thickness of the box covering around the entity*/
-    padding: 20px;
-    border-color: black;
-    border-width: 2px;
-    border-style: solid;
+    /*padding top-right-bottom-left*/
+    padding: 20px 30px 20px 30px;
+    /*can combine into 1 element which we can indicate multiple different properties we want*/
+    border: solid thick black;
+    border-radius: 10px;
     margin: 20px
+}
+.imegec {
+    width: 1000px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: silver;
+    border: crimson 5px double;
+}
+.cloud_background{
+    color: antiquewhite;
+    border: thick solid black;
+    font-style: oblique;
+    /*the %-relative measure unit referring to the font-size indicated in the body*/
+    font-size: 150%;
+    padding: 20px;
+}
+/*states indicate the state of the link, can be visited, hovered*/
+a:link {
+    color: darkblue;
+}
+a:visited {
+    color: coral;
+}
+a:hover {
+    color: crimson;
 }
