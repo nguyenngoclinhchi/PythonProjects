@@ -84,6 +84,7 @@ p {
     padding: 20px;
 }
 /*states indicate the state of the link, can be visited, hovered*/
+/*pseudo class*/
 a:link {
     color: darkblue;
 }
