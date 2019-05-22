@@ -68,7 +68,7 @@ p {
     margin: 20px
 }
 .imegec {
-    width: 1000px;
+    width: 500px;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -94,3 +94,27 @@ a:visited {
 a:hover {
     color: crimson;
 }
+.div_para1 {
+    background-color: aquamarine;
+    color: crimson;
+    width: 50%;
+    float: left;
+    padding: 10px;
+}
+.div_para2 {
+    background-color: salmon;
+    color: darkslategray;
+    width: 50%;
+    float: right;
+    padding: 10px;
+}
+.div_centre {
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+}
+.inline {
+    color: red;
+    font-size: 20px;
+}
+

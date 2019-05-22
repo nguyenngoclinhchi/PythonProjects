@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8bbb1ccf-7601-4e3a-ba02-5136604f1b61" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/basic.css" beforeDir="false" afterPath="$PROJECT_DIR$/basic.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-    </list>
+    <list default="true" id="8bbb1ccf-7601-4e3a-ba02-5136604f1b61" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,22 +11,33 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/basic.py">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2144">
-              <caret line="134" column="12" selection-start-line="134" selection-start-column="12" selection-end-line="134" selection-end-column="12" />
-              <folding>
-                <element signature="n#style#0;n#p#3;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
+            <state relative-caret-position="316">
+              <caret line="86" column="46" selection-start-line="86" selection-start-column="46" selection-end-line="86" selection-end-column="46" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="6" lean-forward="true" selection-start-column="6" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/basic.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="662">
-              <caret line="76" column="1" selection-start-line="76" selection-start-column="1" selection-end-line="76" selection-end-column="1" />
+            <state relative-caret-position="426">
+              <caret line="118" selection-start-line="118" selection-end-line="118" />
             </state>
           </provider>
         </entry>
@@ -61,16 +68,17 @@
         <option value="$PROJECT_DIR$/pyplot.py" />
         <option value="$PROJECT_DIR$/Baisc.html" />
         <option value="$PROJECT_DIR$/Basic.html" />
-        <option value="$PROJECT_DIR$/hello.py" />
         <option value="$PROJECT_DIR$/second.html" />
-        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/hello.py" />
         <option value="$PROJECT_DIR$/basic.css" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="200" />
-    <option name="y" value="35" />
+    <option name="x" value="136" />
+    <option name="y" value="58" />
     <option name="width" value="1400" />
     <option name="height" value="970" />
   </component>
@@ -80,18 +88,18 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="Python_code" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Python_code" type="462c0819:PsiDirectoryNode" />
+              <item name="Python_Project_Chi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Python_Project_Chi" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -99,8 +107,8 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="editor.config.ad.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/basic.css" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../RMI_CRI_Website" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -215,8 +223,7 @@
       <workItem from="1558357579527" duration="5417000" />
       <workItem from="1558401168955" duration="365000" />
       <workItem from="1558401860221" duration="72000" />
-      <workItem from="1558442679840" duration="7417000" />
-      <workItem from="1558489392067" duration="408000" />
+      <workItem from="1558442679840" duration="6868000" />
     </task>
     <task id="LOCAL-00001" summary="Commit in workspace.xml">
       <created>1558400513274</created>
@@ -236,7 +243,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="42367000" />
+    <option name="totallyTimeSpent" value="48900000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -248,10 +255,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1488" height="878" extended-state="6" />
+    <frame x="-8" y="-8" width="1696" height="1026" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22252375" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22555012" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info id="Project Explorer" order="3" />
@@ -265,9 +272,9 @@
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="7" weight="0.32872927" />
-      <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.5440977" weight="0.32885906" />
+      <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.54339856" weight="0.328341" />
       <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.4993007" weight="0.32872927" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.4559023" side_tool="true" weight="0.32885906" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.45660147" side_tool="true" visible="true" weight="0.328341" />
       <window_info anchor="bottom" id="Python Console" order="11" sideWeight="0.83776224" weight="0.32872927" />
       <window_info anchor="bottom" id="Console" order="12" />
       <window_info anchor="bottom" id="DB Execution Console" order="13" />
@@ -281,8 +288,8 @@
       <window_info anchor="right" id="R Graphics" order="3" />
       <window_info anchor="right" id="R Packages" order="4" />
       <window_info anchor="right" id="Database" order="5" />
-      <window_info active="true" anchor="right" id="SciView" order="6" sideWeight="0.92214763" visible="true" weight="0.17367707" />
-      <window_info anchor="right" x="0" y="0" width="322" height="678" id="Documentation" order="7" sideWeight="0.077852346" side_tool="true" visible="true" weight="0.17367707" />
+      <window_info anchor="right" id="SciView" order="6" sideWeight="0.9234899" visible="true" weight="0.17359413" />
+      <window_info anchor="right" x="0" y="0" width="322" height="678" id="Documentation" order="7" sideWeight="0.076510064" side_tool="true" visible="true" weight="0.17367707" />
       <window_info anchor="right" id="Coverage" order="8" side_tool="true" />
     </layout>
   </component>
@@ -318,16 +325,6 @@
     <entry file="file://$USER_HOME$/.PyCharm2019.1/system/python_stubs/-1939255842/builtins.py" />
     <entry file="file://$PROJECT_DIR$/.ipynb_checkpoints/Chi_JupyterNotebook_1-checkpoint.ipynb" />
     <entry file="file://$PROJECT_DIR$/Chi_JupyterNotebook_1.ipynb" />
-    <entry file="file://$PROJECT_DIR$/hello.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3472">
-          <caret line="217" column="7" selection-start-line="217" selection-start-column="7" selection-end-line="217" selection-end-column="7" />
-          <folding>
-            <element signature="e#33#70#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/iris.data">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -382,20 +379,37 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/galaxy.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hello.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2144">
-          <caret line="134" column="12" selection-start-line="134" selection-start-column="12" selection-end-line="134" selection-end-column="12" />
+        <state relative-caret-position="106">
+          <caret line="209" column="10" lean-forward="true" selection-start-line="209" selection-start-column="10" selection-end-line="209" selection-end-column="10" />
           <folding>
-            <element signature="n#style#0;n#p#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#33#70#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/basic.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="662">
-          <caret line="76" column="1" selection-start-line="76" selection-start-column="1" selection-end-line="76" selection-end-column="1" />
+        <state relative-caret-position="426">
+          <caret line="118" selection-start-line="118" selection-end-line="118" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="316">
+          <caret line="86" column="46" selection-start-line="86" selection-start-column="46" selection-end-line="86" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="6" lean-forward="true" selection-start-column="6" selection-end-column="6" />
         </state>
       </provider>
     </entry>
