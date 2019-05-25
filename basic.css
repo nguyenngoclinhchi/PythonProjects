@@ -93,13 +93,18 @@ a:visited {
 }
 a:hover {
     color: crimson;
+    /*set the cursor property when you need to interact with special element*/
+    cursor: url("Locale.ico"), default;
 }
 .div_para1 {
     background-color: aquamarine;
     color: crimson;
-    width: 50%;
+    width: 500px;
     float: left;
     padding: 10px;
+    height: 100px;
+    /*set overflow in case the text is more than the box containing it*/
+    overflow: auto;
 }
 .div_para2 {
     background-color: salmon;
@@ -109,9 +114,9 @@ a:hover {
     padding: 10px;
 }
 .div_centre {
-    margin-left: auto;
-    margin-right: auto;
+    position: absolute;
     padding: 10px;
+    left: 550px;
 }
 .inline {
     color: red;
