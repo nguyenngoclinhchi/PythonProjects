@@ -3,11 +3,13 @@ from __future__ import print_function
 
 import matplotlib.pyplot
 import numpy as np
+import pandas
 
 import pandas as pd
 import matplotlib.pyplot as plt
-import pandas.plotting
+
 import seaborn as sns
+from pandas.tools import plotting
 
 arr = np.arange(10, dtype=float).reshape(2, 5)
 arr_col = arr[np.newaxis, :]
@@ -210,7 +212,7 @@ ax=sns.pointplot(x='timepoint', y='signal', hue='region', style='event', data=fm
 plt.show()
 
 # Load dataset
-filename = 'D:/Kitty/NUS/3-IT_Professionalism/meow/iris.data'
+filename = 'iris.data'
 names = ['sepal-length', 'sepal-width', 'petal-length', 'petal-width', 'class']
 dataset = pandas.read_csv(filename, names=names)
 
@@ -235,7 +237,12 @@ dataset.hist()
 matplotlib.pyplot.show()
 
 # scatter plot matrix
-pandas.plotting.scatter_matrix(dataset)
+plotting.scatter_matrix(dataset)
 matplotlib.pyplot.show()
+
+data = '-46.7372967804726 -28.6439740817813 11.2946561703986 26.6767276689346 0 0 -1.79441363451707e-05 7.27262179975238e-05 -0.170178601353069 133.046655261041 0.578800208921093 -1.45629206819037 0.00193193314783178 -0.263536911477869 6.49155662434054 0 0'
+temp = data.split()
+for i in temp:
+    print(i, '\n')
 
 
