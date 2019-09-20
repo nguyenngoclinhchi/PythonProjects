@@ -16,14 +16,12 @@ def convert_to_date(timestamp):
 
 i = 1
 for f in onlyFiles:
-    file_directory = myPath + '\\' + f
-    excel_file = pandas.read_excel(file_directory)
-    announcement_date = excel_file['announcement_date'][0]
-    effective_date = excel_file['effective_date'][0]
-    id_bb_unique = excel_file['id_bb_unique'][0]
-    print('(announcement_date=\'' + convert_to_date(announcement_date) + '\' and ' +
-          'effective_date=\'' + convert_to_date(effective_date) + '\' and ' +
-          'id_bb_unique=\'' + id_bb_unique + '\') or ')
-    # print(str(i), f)
-    i += 1
-    list_sql.append(excel_file['SQL_query'][0])
+    if "xlsx" in f:
+        file_directory = myPath + '\\' + f
+        excel_file = pandas.read_excel(file_directory)
+        announcement_date = excel_file['announcement_date'][0]
+        effective_date = excel_file['effective_date'][0]
+        id_bb_unique = excel_file['id_bb_unique'][0]
+        list_sql.append(excel_file['SQL_query'][0])
+for i in list_sql:
+    print(i)
